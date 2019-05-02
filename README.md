@@ -15,7 +15,7 @@ TMS is an open source android application that does face recognition using OpenC
 ### Screenshots
 <img src="https://github.com/trafficmanagement/P09_traffic_management/blob/master/docs/static/1.jpg?raw=true" width="60%"/>
 <img src="https://github.com/trafficmanagement/P09_traffic_management/blob/master/docs/static/2.jpg?raw=true" width="60%"/>
-<img src="https://github.com/trafficmanagement/P09_traffic_management/blob/master/docs/static/3.jpg?raw=true" width="60%"/>
+<img src="https://github.com/trafficmanagement/P09_traffic_management/blob/master/docs/static/3i.jpg?raw=true" width="60%"/>
 <img src="https://github.com/trafficmanagement/P09_traffic_management/blob/master/docs/static/4.jpg?raw=true" width="60%"/>
 
 ***Face Recognition:***
@@ -32,7 +32,7 @@ TMS is an open source android application that does face recognition using OpenC
 4. **Home > Number Plate Detection > Challan** - Fill the details of violator along with picture of his/her Driving Licence Card.
 5. **Home > Number Plate Detection > Database** - Search the database using any known identity of the violator to get his pervious records.
 
-**How to open**
+**General Instructions**
 
 - Clone this repository
 - Open project in android studio
@@ -50,8 +50,6 @@ TMS is an open source android application that does face recognition using OpenC
 - Face recognition is not accurate. Far from it
 - Recognition model gets created each time "Recognize" tab is clicked. Slows down as number of training images increase
 
-### Directories
-- **/sdcard/facerecogOCV** - Training images
 
 ### License
 MIET
