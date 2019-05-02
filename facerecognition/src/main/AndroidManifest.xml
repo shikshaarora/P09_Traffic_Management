@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.opencv.cultoftheunicorn.marvel"
+    android:installLocation="auto"
+    android:versionCode="24"
+    android:versionName="2.4">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front.autofocus"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/lightbulb"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="cultoftheunicorn.marvel.SearchBylplate"></activity>
+        <activity android:name="cultoftheunicorn.marvel.SearchByLocation" />
+        <activity android:name="cultoftheunicorn.marvel.RegisterFormActivity2" />
+        <activity android:name="cultoftheunicorn.marvel.RegisterFormActivity" />
+        <activity android:name="cultoftheunicorn.marvel.ChalanActivity" />
+        <activity android:name="cultoftheunicorn.marvel.DetailsActivity" />
+        <activity android:name="cultoftheunicorn.marvel.RetrieveActivity" />
+        <activity
+            android:name="cultoftheunicorn.marvel.MainActivity"
+            android:label="Android OCR" />
+        <activity
+            android:name="cultoftheunicorn.marvel.Recognize"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="cultoftheunicorn.marvel.Training"
+            android:label="Training"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="cultoftheunicorn.marvel.NameActivity"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name="cultoftheunicorn.marvel.ReviewResults"
+            android:label="Review and Mark" /> <!-- android:screenOrientation="portrait" -->
+        <activity android:name="cultoftheunicorn.marvel.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="cultoftheunicorn.marvel.WelcomeActivity" />
+        <activity android:name="cultoftheunicorn.marvel.LoginActivity" />
+        <activity android:name="cultoftheunicorn.marvel.HomeActivity" />
+        <activity android:name="cultoftheunicorn.marvel.view_records" />
+        <activity android:name="cultoftheunicorn.marvel.Activity2" />
+        <activity android:name="cultoftheunicorn.marvel.WebActivity" />
+        <activity android:name="cultoftheunicorn.marvel.DatabaseActivity" />
+        <activity android:name="cultoftheunicorn.marvel.RegisterActivity" />
+        <activity android:name="cultoftheunicorn.marvel.UserActivity" />
+        <activity android:name="cultoftheunicorn.marvel.submit" />
+
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="ocr" />
+
+
+    </application>
+
+</manifest>

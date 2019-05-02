@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#009688"
+        tools:context="cultoftheunicorn.marvel.DetailsActivity"
+        tools:showIn="@layout/activity_details">
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            card_view:cardCornerRadius="3dp"
+            card_view:cardElevation="5dp">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/teacherDetailImageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:layout_alignParentTop="true"
+                        android:padding="5dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/placeholder" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/LnoLabel"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:maxLines="1"
+                                android:padding="5dp"
+                                android:textSize="20dp"
+                                android:text="Licence Number : "
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/LnoDetailTextView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:maxLines="2"
+                                android:padding="5dp"
+                                android:textSize="17dp"
+                                android:text="Voyagerrrrrrrrrrrrrrjhbndjrrrrrrredfce ndbhjbhjbe"
+                                android:textAppearance="?android:attr/textAppearanceLarge"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/LplateLabel"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:maxLines="1"
+                                android:padding="5dp"
+                                android:textSize="20dp"
+                                android:text="Licence Plate : "
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/LplateDetailTextView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:maxLines="2"
+                                android:textSize="17dp"
+                                android:padding="5dp"
+                                android:text="Jk02 BB8014"
+                                android:textAppearance="?android:attr/textAppearanceLarge"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/nameLabel"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:maxLines="1"
+                                android:padding="5dp"
+                                android:textSize="20dp"
+                                android:text="Name : "
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/nameDetailTextView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:maxLines="2"
+                                android:textSize="17dp"
+                                android:padding="5dp"
+                                android:text="Traffic Management"
+                                android:textAppearance="?android:attr/textAppearanceLarge"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/dateLabel"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:maxLines="1"
+                                android:padding="5dp"
+                                android:textSize="20dp"
+                                android:text="DATE : "
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/dateDetailTextView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:maxLines="1"
+                                android:padding="5dp"
+                                android:textSize="17dp"
+                                android:text="12/12/2019"
+                                android:textAppearance="?android:attr/textAppearanceLarge"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/crimeLabel"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:maxLines="1"
+                                android:padding="5dp"
+                                android:textSize="20dp"
+                                android:text="Crime : "
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/crimeDetailTextView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:maxLines="2"
+                                android:textSize="17dp"
+                                android:padding="5dp"
+                                android:text="KY Cygni"
+                                android:textAppearance="?android:attr/textAppearanceLarge"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/commentsLabel"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:maxLines="1"
+                                android:padding="5dp"
+                                android:textSize="20dp"
+                                android:text="Comments : "
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/commentsDetailTextView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:maxLines="3"
+                                android:scrollbars="vertical"
+                                android:padding="5dp"
+                                android:textSize="17dp"
+                                android:text="Chemical"
+                                android:textAppearance="?android:attr/textAppearanceLarge"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/CountLabel"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:maxLines="1"
+                                android:padding="5dp"
+                                android:textSize="20dp"
+                                android:text="Records : "
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/countDetailTextView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:maxLines="1"
+                                android:padding="5dp"
+                                android:textSize="17dp"
+                                android:text="number"
+                                android:textAppearance="?android:attr/textAppearanceLarge"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/placeLabel"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:maxLines="1"
+                                android:padding="5dp"
+                                android:textSize="20dp"
+                                android:text="Place of Violation : "
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/placeDetailTextView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:maxLines="2"
+                                android:textSize="17dp"
+                                android:padding="5dp"
+
+                                android:text="janipur"
+                                android:textAppearance="?android:attr/textAppearanceLarge"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/amountLabel"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:maxLines="1"
+                                android:padding="5dp"
+                                android:textSize="20dp"
+                                android:text="Challan Amount : "
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/amountDetailTextView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:maxLines="2"
+                                android:textSize="17dp"
+                                android:padding="5dp"
+                                android:text="200 Rs"
+                                android:textAppearance="?android:attr/textAppearanceLarge"/>
+                        </LinearLayout>
+
+
+
+
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>

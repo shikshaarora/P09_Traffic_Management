@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="cultoftheunicorn.marvel.Activity2"
+    android:background="#10345f">
+
+
+    <Button
+        android:id="@+id/choose_from_gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="16dp"
+        android:drawableTop="@drawable/ic_choose_fgallery"
+        android:text="Choose from gallery"
+        android:textColor="@color/lightBlack"
+        tools:context=".MainActivity" />
+
+    <Button
+        android:id="@+id/take_a_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/choose_from_gallery"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:drawableTop="@drawable/ic_take_pic"
+        android:text="take a photo"
+        android:textColor="@color/lightBlack"
+        tools:context=".MainActivity" />
+
+    <TextView
+        android:id="@+id/detected_text"
+        android:layout_width="294dp"
+        android:layout_height="146dp"
+        android:layout_below="@+id/take_a_photo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="9dp"
+        android:background="@color/background_material_light"
+        android:scrollbars="vertical"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnCopy"
+        android:layout_width="174dp"
+        android:layout_height="76dp"
+        android:layout_below="@+id/detected_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:drawableTop="@drawable/ic_clipboard_copy_512"
+        android:text="Copy To Clipboard" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="53dp"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_back_button"
+        android:onClick="backbutton"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/detected_textt"
+        android:layout_width="139dp"
+        android:layout_height="129dp"
+        android:layout_below="@+id/btnCopy"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/background_material_light"
+        android:scrollbars="vertical"
+        android:text="SEARCH DATABASE BY:"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="111dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/btnCopy"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="35dp"
+        android:onClick="databaseLplate"
+        android:text="LPlate" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="111dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/btnCopy"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="65dp"
+        android:onClick="databaselocation"
+        android:text="Location" />
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="111dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/btnCopy"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="95dp"
+        android:onClick="loadlistview"
+        android:shadowColor="@color/abc_search_url_text_normal"
+        android:text="LNO" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:layout_alignBottom="@+id/button4"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="5dp"
+        android:onClick="register"
+        android:text="Challan"
+        android:textColor="@color/background_material_dark"
+        android:textColorLink="@color/background_material_light" />
+
+</RelativeLayout>

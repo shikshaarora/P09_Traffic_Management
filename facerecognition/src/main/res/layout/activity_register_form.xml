@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="false"
+    tools:context="cultoftheunicorn.marvel.RegisterFormActivity">
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/HeadingDrivertextView"
+            android:layout_width="256dp"
+            android:layout_height="40dp"
+            android:text="Driver Information"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            tools:textSize="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" >
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/signup_input_layout_lno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/signup_input_lno"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Licence Number"
+                    android:inputType="none" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/signup_input_layout_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/signup_input_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Name" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/signup_input_layout_so"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/signup_input_so"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Son Of (S/o)"
+                    android:inputType="none" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/signup_input_layout_DOI"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/signup_input_DOI"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Date of Issue(dd/mm/yyyy)"
+                    android:inputType="date" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/signup_input_layout_Validtill"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/signup_input_ValidTill"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Valid Till(NT)(dd/mm/yyyy)"
+                    android:inputType="date" />
+            </android.support.design.widget.TextInputLayout>
+
+
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp">
+
+                <TextView
+                    android:id="@+id/gender_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@string/hint_password"
+                    android:fontFeatureSettings="@string/hint_password"
+                    android:paddingRight="15dp"
+                    android:text="@string/hint_gender"
+                    android:textSize="20dp" />
+
+                <RadioGroup
+                    android:id="@+id/gender_radio_group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/gender_textview"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/male_radio_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:text="@string/male" />
+
+                    <RadioButton
+                        android:id="@+id/female_radio_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/female" />
+                </RadioGroup>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/HeadingCrimetextView"
+                android:layout_width="256dp"
+                android:layout_height="40dp"
+                android:text="Offence Details"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                tools:textSize="20dp" />
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/signup_input_layout_Lplate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/signup_input_Lplate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Vechicle Licence Plate"
+                    android:inputType="none" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/signup_input_layout_Violation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/signup_input_Violation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Violation Commited"
+                    android:inputType="none" />
+            </android.support.design.widget.TextInputLayout>
+
+
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/signup_input_layout_Comments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/signup_input_Comments"
+                    android:layout_width="match_parent"
+                    android:layout_height="103dp"
+                    android:ems="10"
+                    android:hint="Additional Comments(if any)"
+                    android:inputType="none" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/signup_input_layout_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/signup_input_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Date(dd/mm/yyyy)"
+                    android:inputType="datetime" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/signup_input_layout_place"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/signup_input_place"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Place of Violation"
+                    android:inputType="none" />
+            </android.support.design.widget.TextInputLayout>
+            <TextView
+                android:id="@+id/HeadingChallantextView"
+                android:layout_width="256dp"
+                android:layout_height="40dp"
+                android:text="Challan Amount"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                tools:textSize="20dp" />
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/signup_input_layout_amount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/signup_input_amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint=" Challan Amount"
+                    android:inputType="number" />
+            </android.support.design.widget.TextInputLayout>
+            <Button
+                android:id="@+id/take_a_photoo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="28dp"
+                android:text="take a photo"
+                android:textColor="@color/lightBlack"
+                />
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/signup_input_layout_iname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp">
+
+                <EditText
+                    android:id="@+id/signup_input_iname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Image Name"
+                    android:inputType="none" />
+            </android.support.design.widget.TextInputLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="right">
+
+                <Button
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="Upload >>"
+                    android:textColor="#FFF"
+                    android:background="@color/colorPrimary"
+                    android:id="@+id/buttonUpload"
+                    android:visibility="gone"/>
+
+            </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <Button android:id="@+id/btn_signup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_sign_up"
+            android:background="@color/login_button_background"
+            android:layout_marginTop="40dp"
+            android:textColor="@android:color/white"/>
+        <Button android:id="@+id/btn_link_login"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Go Back !!"
+            android:background="@null"
+            android:layout_marginTop="3dp"
+            android:textColor="@android:color/black"/>
+    </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
