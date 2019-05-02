@@ -13,10 +13,10 @@ TMS is an open source android application that does face recognition using OpenC
 
 
 ### Screenshots
-<img src="https://github.com/trafficmanagement/P09_traffic_management/blob/master/docs/static/1.jpg?raw=true" width="75%"/>
-<img src="https://github.com/trafficmanagement/P09_traffic_management/blob/master/docs/static/2.jpg?raw=true" width="75%"/>
-<img src="https://github.com/trafficmanagement/P09_traffic_management/blob/master/docs/static/3.jpg?raw=true" width="75%"/>
-<img src="https://github.com/trafficmanagement/P09_traffic_management/blob/master/docs/static/4.jpg?raw=true" width="75%"/>
+<img src="https://github.com/trafficmanagement/P09_traffic_management/blob/master/docs/static/1.jpg?raw=true" width="60%"/>
+<img src="https://github.com/trafficmanagement/P09_traffic_management/blob/master/docs/static/2.jpg?raw=true" width="60%"/>
+<img src="https://github.com/trafficmanagement/P09_traffic_management/blob/master/docs/static/3.jpg?raw=true" width="60%"/>
+<img src="https://github.com/trafficmanagement/P09_traffic_management/blob/master/docs/static/4.jpg?raw=true" width="60%"/>
 
 ***Face Recognition:***
 1. **Home page** - For switching between face recognition and number plate detection.
