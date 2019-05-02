@@ -3,10 +3,12 @@ TMS is an open source android application that does face recognition using OpenC
 
 
 ### Credits
+- [https://github.com/shikshaarora](https://github.com/shikshaarora)
+- [https://github.com/Nivedita29](https://github.com/Nivedita29)
 - [https://github.com/trafficmanagement/](https://github.com/trafficmanagement/)
 
 
-### Video Demo of Face Recognition
+### Video Demo
 ...to be added
 
 
