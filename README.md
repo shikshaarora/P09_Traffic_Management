@@ -13,12 +13,19 @@ TMS is an open source android application that does face recognition using OpenC
 ### Screenshots
 ...to be added
 
-1. **Home page** - For switching between training and testing
-2. **Home > Training (enter ID)** - Enter ID for the train images
-3. **Home > Training (enter ID) > Capture** -  Capture train image for the ID
+***Face Recognition:***
+1. **Home page** - For switching between face recognition and number plate detection.
+2. **Home > ADD NEW ENTRY (enter name)** - Enter name of person standing in front of camera.
+3. **Home > ADD NEW ENTRY (enter name) > Capture** -  Capture image.
 4. **Home > Recognition** - Recognize faces
-5. **Home > Recognition > Review** - Review capture results (Optionally push to database)
+5. **Home > Recognition > Submit** - Display name of person.
 
+***Number Plate Detection***
+1. **Home page** - For switching between face recognition and number plate detection.
+2. **Home > Number Plate Detection > Choose_from_galary/Take_a_picture**- Insert picture of the vehicle
+3. **Home >  Number Plate Detection > Choose_from_galary/Take_a_picture > Textbox**-  Extract the Characters from vehicle number plate and display it.
+4. **Home > Number Plate Detection > Challan** - Fill the details of violator along with picture of his/her Driving Licence Card.
+5. **Home > Number Plate Detection > Database** - Search the database using any known identity of the violator to get his pervious records.
 
 **How to open**
 
